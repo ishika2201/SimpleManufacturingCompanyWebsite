@@ -1,0 +1,43 @@
+h1 {
+    padding-bottom: 20px;
+}
+
+.both {
+    display: flex;
+    background-color: rgb(153, 153, 153);
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.contactleft {
+    text-align: start;
+    justify-content: left;
+}
+
+.contactright {
+    padding-top: 100px;
+}
+
+h2 {
+    color: rgba(30, 5, 51, 0.682);
+}
+
+h4 {
+    font-weight: 400;
+}
+
+span {
+    color: rgba(44, 2, 78, 0.682);
+    font-weight: bold;
+}
+
+img {
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .both {
+        display: flex;
+        flex-direction: column;
+    }
+}

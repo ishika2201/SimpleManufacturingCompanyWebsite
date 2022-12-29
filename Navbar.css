@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(44, 2, 78, 0.682);
+    padding-bottom: 10px;
+}
+
+.lnav {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.rnav {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.logo {
+    margin: 20px 0px 0px 20px;
+}

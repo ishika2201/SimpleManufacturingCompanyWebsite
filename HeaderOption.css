@@ -1,0 +1,35 @@
+.headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: darkgrey;
+    cursor: pointer;
+    object-fit: contain;
+    height: 60px;
+}
+
+.headerOption_icon {
+    object-fit: contain;
+    height: 60px;
+    padding-top: 10px;
+    border-radius: 100%;
+}
+
+.headerOption_title {
+    margin-top: 10px;
+}
+
+.headerOption:hover {
+    color: black;
+}
+
+@media screen and (max-width: 442px) {
+    .headerOption_icon {
+        object-fit: contain;
+        width: 30px;
+    }
+    .headerOption_title {
+        font-size: x-small;
+    }
+}

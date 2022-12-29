@@ -1,0 +1,25 @@
+h4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.cer {
+    padding: 20px;
+    border-radius: 0%;
+}
+
+.left {
+    padding: 60px;
+}
+
+@media screen and (max-width: 550px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+}

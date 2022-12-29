@@ -1,0 +1,53 @@
+.imagesofproductsname {
+    border-radius: 10%;
+    height: 100px;
+}
+
+.imagesofproductsname:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.name {
+    padding: 20px;
+}
+
+.name:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: rgb(105, 0, 0);
+}
+
+.pictures {
+    object-fit: contain;
+    width: 50%;
+    border-radius: 0% !important;
+}
+
+.stcontent {
+    padding: 40px;
+}
+
+.sectioname {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 550px) {
+    .line {
+        display: flex;
+        flex-direction: column;
+    }
+}
